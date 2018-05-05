@@ -2,4 +2,4 @@
 
 directory:
 
-~/.config/cava/config
+	~/.config/cava/config
