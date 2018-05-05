@@ -1,0 +1,4 @@
+alias mk='time make'
+alias wd='cd /mnt/data_1/code'
+alias l='ls -lh'
+alias uni='ssh <user>@ts.uco.es'
