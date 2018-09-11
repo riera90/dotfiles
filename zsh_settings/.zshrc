@@ -134,19 +134,10 @@ precmd () {print -Pn "\e]0; %n@%M $(echo $(pwd) | grep -Eo '(/[a-zA-Z\-\_\.0-9\+
 # print -Pn "\e]0; %n@%M\a"   # terminal title
 
 source ~/.alias                 # aliases
-PATH=$PATH:/scripts		# path aditions
+PATH=$PATH:/scripts		#path aditions
 EDITOR=/usr/bin/vim
-echo -ne "Good Morning, $(whoami)! It's "; date '+%A, %-d of %B %Y %I:%M %P'
-echo -e "    ___              __    __    _                 
-   /   |  __________/ /_  / /   (_)___  __  ___  __
-  / /| | / ___/ ___/ __ \/ /   / / __ \/ / / / |/_/
- / ___ |/ /  / /__/ / / / /___/ / / / / /_/ />  <  
-/_/  |_/_/   \___/_/ /_/_____/_/_/ /_/\__,_/_/|_|  $(uname -r | sed -En 's/^([0-9\.]*).*/\1/p')\n"
-
-#echo -e "\n ___       ___     / __      ___     // //  
-#   / /   ((   ) ) //   ) ) //___) ) // //   
-#  / /     \ \    //   / / //       // //    
-# / /__ //   ) ) //   / / ((____   // //     $(uname -r | sed -En 's/^([0-9\.]*).*/\1/p')\n"
-
-
-# End of lines configured by zsh-newuser-install
+echo -ne "Hello $(whoami)! It's "; date '+%A, %-d of %B %Y %I:%M %P'
+echo -e "\n ___       ___     / __      ___     // //  
+   / /   ((   ) ) //   ) ) //___) ) // //   
+  / /     \ \    //   / / //       // //    
+ / /__ //   ) ) //   / / ((____   // //     $(uname -r | sed -En 's/^([0-9\.]*).*/\1/p')\n"
