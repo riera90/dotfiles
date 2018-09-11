@@ -1,14 +1,8 @@
-# cd's aliases
-alias wd='cd /mnt/data_1/code' # my working directory
-
-# ssh conections
-alias uni='ssh <user>@ts.uco.es' # to my university
-
-# other option to my bgd.sh script in the scripts repository
-alias bgdim='xrandr --output LVDS-1 --brightness 0.3 --gamma 1:1:1'
-alias bgdimred='xrandr --output LVDS-1 --brightness 0.3 --gamma 1:.7:.5'
-alias bgfull='xrandr --output LVDS-1 --brightness 1 --gamma 1:1:1
-
-# random aliases
 alias mk='time make'
+alias wd='cd /mnt/data_1/code'
 alias l='ls -lh'
+alias uni='ssh <login>@ts.uco.es'
+alias bgdim='xrandr --output LVDS-1 --brightness 0.4 --gamma 1:1:1'
+alias bgdimred='xrandr --output LVDS-1 --brightness 0.4 --gamma 1:.7:.5'
+alias bgfull='xrandr --output LVDS-1 --brightness 1 --gamma 1:1:1'
+alias p="ping 1.1.1.1"
