@@ -136,8 +136,9 @@ precmd () {print -Pn "\e]0; %n@%M $(echo $(pwd) | grep -Eo '(/[a-zA-Z\-\_\.0-9\+
 source ~/.alias                 # aliases
 PATH=$PATH:/scripts		#path aditions
 EDITOR=/usr/bin/vim
-echo -ne "Hello $(whoami)! It's "; date '+%A, %-d of %B %Y %I:%M %P'
+#echo -ne "Hello $(whoami)! It's "; date '+%A, %-d of %B %Y %I:%M %P'
 echo -e "\n ___       ___     / __      ___     // //  
    / /   ((   ) ) //   ) ) //___) ) // //   
   / /     \ \    //   / / //       // //    
  / /__ //   ) ) //   / / ((____   // //     $(uname -r | sed -En 's/^([0-9\.]*).*/\1/p')\n"
+# cowsay -f eyes "hello $(whoami)"
