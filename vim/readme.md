@@ -1,0 +1,3 @@
+directory:
+	
+	/etc/vim/vimrc

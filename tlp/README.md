@@ -7,4 +7,4 @@ directory:
 ## Warning!
 
 This settings will only work for you if you have a Thinkpad!  
-In the settings the battery threshold is activated.
+In the settings, the battery threshold is activated.

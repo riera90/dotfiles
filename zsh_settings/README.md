@@ -1,2 +1,4 @@
-# Zsh settings
-execute install.sh for easy installation.
+directory:
+
+	~/.alias  
+	~/.zshrc

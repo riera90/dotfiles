@@ -1,1 +1,4 @@
-all files belong in ~/
+directory:
+
+	~/.gitconfig  
+	~/.gitignore	
