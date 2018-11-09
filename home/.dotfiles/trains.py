@@ -13,7 +13,7 @@ def next_train(trip): #city puede ser 'cor' (Cordoba) o 'rab' (Rabanales)
 		trains = json.load(jsonfile)[trip]
 
 	actual_day = int(datetime.today().weekday())
-	if (actual_day < 4):
+	if (actual_day < 5):
 		return tell_train(trains['entreSemana'], hora_act)
 	else:
 		return tell_train(trains['finDeSemana'], hora_act)
