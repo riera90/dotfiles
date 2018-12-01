@@ -130,7 +130,7 @@ unsetopt list_beep              # no bell on ambiguous completion
 unsetopt rm_star_silent         # ask for confirmation for `rm *' or `rm path/*'
 # setxkbmap -option compose:ralt  # compose-key
 # print -Pn "\e]0; %n@%M: %~\a"   # terminal title
-precmd () {print -Pn "\e]0; %n@%M $(echo $(pwd) | grep -Eo '(/[a-zA-Z\-\_\.0-9\+]*)?(/([a-zA-Z\-\_\.0-9\+]*)?)$')\a"}   # dinamic terminal title
+precmd () {print -Pn "\e]0; %n@%M $(echo $(pwd) | grep -Eo '(/[*/]{}){0,2})$')\a"}   # dinamic terminal title
 # print -Pn "\e]0; %n@%M\a"   # terminal title
 
 source ~/.alias                 # aliases
