@@ -3,3 +3,4 @@
 directory:
 
 	~/.config/cava/config
+

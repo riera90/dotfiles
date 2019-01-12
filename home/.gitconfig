@@ -12,5 +12,3 @@
 	st = status
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	ca = !git add -A && git commit
-	
-

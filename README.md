@@ -14,3 +14,6 @@ In the settings, the battery threshold is activated.
 
 ## others
 this setting I usually don't use, I don't really know what is in them
+
+## zsh
+ohmyzsh is requiered
