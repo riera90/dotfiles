@@ -30,13 +30,13 @@ def tell_train(trains, hora_act):
 
 def main():
 	# ├
-	print('next trains:')
+	print ('next trains:')
 
-	print('\nFrom Cordoba to:')
-	print('\t└Rabanales at',next_train('Cordoba-Rabanales'))
+	print ('\nFrom Cordoba to:')
+	print ('\t└Rabanales at',next_train('Cordoba-Rabanales'))
 
-	print('\nFrom Rabanales to:')
-	print('\t└Cordoba at',next_train('Rabanales-Cordoba'))
+	print ('\nFrom Rabanales to:')
+	print ('\t└Cordoba at',next_train('Rabanales-Cordoba'))
 
 
 if __name__== "__main__":
